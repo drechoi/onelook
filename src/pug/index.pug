@@ -281,7 +281,7 @@ html(lang='en')
                             i.far.fa-envelope
                             | info@onelook.com.hk
                     .col-md-6
-                        form#contactForm(name='sentMessage', novalidate='novalidate', action='https://formspree.io/f/xyybnrjg', method='POST')
+                        form#contactForm(name='sentMessage', novalidate='novalidate')
                             .form-group
                                 input#name.form-control(type='text', placeholder='Your Name *', required='required', data-validation-required-message='Please enter your name.')
                                 p.help-block.text-danger
@@ -331,7 +331,7 @@ html(lang='en')
 
         // Contact form JS
         script(src='assets/mail/jqBootstrapValidation.js')
-        script(src='assets/mail/contact_me.js')
+        //- script(src='assets/mail/contact_me.js')
 
         // Core theme JS
         script(src='js/scripts.js')
