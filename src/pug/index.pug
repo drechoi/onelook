@@ -282,6 +282,7 @@ html(lang='en')
                             | info@onelook.com.hk
                     .col-md-6
                         form#contactForm(name='sentMessage', novalidate='novalidate')
+                            input#_next.form-control(type='hidden', value="//site.io/thanks.html")
                             .form-group
                                 input#name.form-control(type='text', placeholder='Your Name *', required='required', data-validation-required-message='Please enter your name.')
                                 p.help-block.text-danger
