@@ -24,12 +24,12 @@ $(function () {
                 // url: "/assets/mail/contact_me.php",
                 url: "https://formspree.io/f/xyybnrjg",
                 type: "POST",
+                dataType: "json",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message,
-                    _next: '#',
                 },
                 cache: false,
                 success: function () {
