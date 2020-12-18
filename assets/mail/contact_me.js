@@ -29,6 +29,7 @@ $(function () {
                     phone: phone,
                     email: email,
                     message: message,
+                    _next: '#',
                 },
                 cache: false,
                 success: function () {
